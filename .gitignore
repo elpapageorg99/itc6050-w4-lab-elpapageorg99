@@ -1,0 +1,4 @@
+logs/ 
+shop_dbt/target/ 
+shop_dbt/logs/ 
+shop_dbt/dbt_packages/ 
