@@ -1,0 +1,10 @@
+services:
+    postgres:
+        image: postgres:17
+        container_name: itc6050_shop
+        environment:
+            POSTGRES_USER: itc6050
+            POSTGRES_PASSWORD: itc6050
+            POSTGRES_DB: shop_lab
+        ports:
+            - "5433:5432"
